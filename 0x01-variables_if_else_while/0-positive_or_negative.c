@@ -9,6 +9,7 @@
 /**
  *
  *  * main - Entry point
+ * 
  *   * Description: print value of n satus; zero, positive ornegative
  *
  *    * Return: Always 0 (Success)
@@ -16,7 +17,6 @@
  *     */
 int main(void)
 {
-*/
 int n;
 srand(time(0));
 
@@ -34,6 +34,7 @@ else if (n == 0)
 else
          if (n < 0)
 		printf("%i is negative\n", n);
-return (0);
+
+         return (0);
 
 }
