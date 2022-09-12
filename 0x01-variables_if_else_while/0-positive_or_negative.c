@@ -1,7 +1,5 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 
@@ -22,7 +20,7 @@ srand(time(0));
 
          n = rand() - RAND_MAX / 2;
 
-	/*my code*/
+	/"get your code there*/
 
 if (n > 0)
 
@@ -32,9 +30,10 @@ if (n > 0)
 
 		printf("%i is zero\n", n);
 
-	else
+else if (n < 0)
+{
 
 		printf("%i is negative\n", n);
 
-	return (0);
+return (0);
 }
