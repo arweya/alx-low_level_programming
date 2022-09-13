@@ -9,7 +9,7 @@
 /**
  *main-Entry point
  *
- *    Desciption: using the main function
+ *Desciption: using the main function
  * 
  *Return: Always 0 (Success)
  */
