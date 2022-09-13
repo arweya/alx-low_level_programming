@@ -8,13 +8,14 @@
 
 /**
  *
- *  * main - Entry point
+ *   main - Entry point
  *
- *   * Description: print value of n satus; zero, positive ornegative
+ *    Description: print value of n satus; zero, positive ornegative
  *
- *    * Return: Always 0 (Success)
+ *     Return: Always 0 (Success)
  *
- *     */
+ *  
+ */
 int main(void)
 {
 int n;
@@ -27,15 +28,15 @@ int n;
 
 	if (n > 0)
 
-		printf("%i is positive\n", n);
+printf("%i is positive\n", n);
 
 	else if (n == 0)
 
-		printf("%i is zero\n", n);
+printf("%i is zero\n", n);
 
-else if( n < 0)
+else if (n < 0)
 
-		printf("%i is negative\n", n);
+printf("%i is negative\n", n);
 
 	return (0);
 
