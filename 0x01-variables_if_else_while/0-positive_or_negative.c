@@ -6,7 +6,7 @@
  *main-Entry point
  *
  *Desciption: using the main function
- *this program prints "programming is positive, zero,ornegative" 
+ *Description:print value of n satus; zero, positive ornegative
  *Return: Always 0 (Success)
  */
 int main(void)
