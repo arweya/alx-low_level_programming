@@ -5,30 +5,24 @@
 #include <stdio.h>
 
 /**
- *
  *  main - Print if the number is positive, zero or negative
- *
- * *
- *
- * Description: print the value of n status:
- *
- *greater than, is zero and is not less than 6.
+ * 
+ *Description: print the value of n status:
+ *greater than, is zero and is not less than 6
  *
  * Return: Always O (Success)
  */
 int main(void)
 {
 int n, digit;
-
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 
 	/*my code*/
 
-	digit = n % 10; /*gets last digit*/
+digit = n % 10; /*gets last digit*/
 
-	if (digit > 5)
+if (digit > 5)
 
 printf("Last digit of %i is %i and is greater than 5\n", n, digit);
 
