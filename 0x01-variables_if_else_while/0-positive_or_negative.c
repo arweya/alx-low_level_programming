@@ -9,7 +9,6 @@
 /**
  *
  *   main - Entry point
- *
  *    Description: print value of n satus; zero, positive ornegative
  *
  *     Return: Always 0 (Success)
@@ -19,8 +18,7 @@
 int main(void)
 {
 int n;
-
-	srand(time(0));
+srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
 
@@ -30,7 +28,7 @@ int n;
 
 printf("%i is positive\n", n);
 
-	else if (n == 0)
+else if (n == 0)
 
 printf("%i is zero\n", n);
 
