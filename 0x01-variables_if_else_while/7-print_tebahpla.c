@@ -1,12 +1,13 @@
 #include<stdio.h>
+
 /**
  *main - Entry point
  *
- * Description: print a-z in reverse
+ *Description: print a-z in reverse
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
-int main(void
+int main(void)
 {
 char ch = 'z';
 while (ch >= 'a')
