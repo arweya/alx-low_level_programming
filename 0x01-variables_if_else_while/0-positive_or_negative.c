@@ -6,7 +6,7 @@
  *main-Entry point
  *
  *Desciption: using the main function
- *this program prints "programming is positive, zero, or negative'' 
+ *this program prints "programming is positive, zero,ornegative" 
  *Return: Always 0 (Success)
  */
 int main(void)
