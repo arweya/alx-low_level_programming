@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main- print Putchar
  *
@@ -7,7 +6,6 @@
  *
  * Return: 0 (Sucess)
  */
-
 int main (void)
 {
 	_putchar('_');
@@ -20,5 +18,5 @@ int main (void)
 	_putchar('r');
 	_putchar('\n');
 
-	return (0);
+	return (O:);
 }
