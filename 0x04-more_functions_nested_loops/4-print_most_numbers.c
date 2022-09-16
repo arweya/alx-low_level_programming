@@ -14,11 +14,9 @@ void print_most_numbers(void)
         {
                                                               
 		if (!(c == '2' || c == '4'))
-                        _putchar(c);
-                                                                               
-	        c++;
-                                                                                        
-	}
+                        _putchar(c);:wq
 
-        _putchar('\n');
+	        c++:                                                                                
+	}
+	_putchar('\n');
 }
