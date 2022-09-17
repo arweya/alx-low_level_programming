@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isupper -function to print is uppercase
- * @c: interger assigned
+ *_isupper -function to print is uppercase
+ *@c: interger assigned
  *Return: 1 if true else 0
  */
 int_isupper(int c)
