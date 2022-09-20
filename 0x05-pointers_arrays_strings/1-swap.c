@@ -1,14 +1,14 @@
 #include "main.h"
-
 /**
- * swap_int -swaps value of two intergers
- *@:interger to swap
- *@b:integer to swap
+ * swap_int - function declared*
+ * @a: firstd interger
+ * @b: second interger
  */
-
 void swap_int(int *a, int *b)
 {
-	int c = *a;
-	*a = *b;
-        *b = c;
+int swp;
+
+swp = *a;
+*a = *b;
+*b = swp;
 }
