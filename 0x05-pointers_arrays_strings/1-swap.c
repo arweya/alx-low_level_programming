@@ -2,16 +2,13 @@
 
 /**
  * swap_int -swaps value of two intergers
- * @:first interger
- * @b:second interger
- * Return: nothing
+ *@:interger to swap
+ *@b:integer to swap
  */
 
 void swap_int(int *a, int *b)
 {
-	int temp = *a;
-
-temp = *a;
-*a = *b;
-*b = temp;
+	int c = *a;
+	*a = *b;
+        *b = c;
 }
