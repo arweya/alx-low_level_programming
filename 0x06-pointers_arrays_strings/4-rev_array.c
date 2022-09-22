@@ -17,7 +17,7 @@ a[n - i - 1]
 = temp;
 }
 for (i = 0; i < n; i++)
-{                                 
+{
 _putchar(a[i]);
 }
 }
