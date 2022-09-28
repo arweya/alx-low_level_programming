@@ -1,9 +1,8 @@
-#ifndef MAIN_H
 #include "main.h"
 
 /**
  * _puts_recursion - function that prints a string.
- * @s: string literal to print
+ * @s:String literal to print
  *
  * Return: Always void
  */
