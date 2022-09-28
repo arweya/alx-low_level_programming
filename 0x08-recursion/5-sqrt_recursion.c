@@ -50,7 +50,7 @@ return (0);
 {
 return (1);
 }
-'(else)'
+'else'
 {
 return (root_square(2, n));
 '}'
