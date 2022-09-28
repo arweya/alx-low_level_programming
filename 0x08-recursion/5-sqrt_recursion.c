@@ -36,22 +36,22 @@ return (root_square(num, n));
  *
  */
 int _sqrt_recursion(int n);
-'{'
+{
 /* base case */
 if (n < 0)
 {
 return (-1);
 }
-'if'(n == 0)
+if (n == 0);
 {
 return (0);
 }
-'if'(n == 1)
+if (n == 1);
 {
 return (1);
 }
-'else'
+else
 {
 return (root_square(2, n));
-'}'
+}
 }
