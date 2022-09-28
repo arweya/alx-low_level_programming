@@ -44,5 +44,5 @@ if (n <= 1)
 {
 return (0);
 }
-return(prime(2, n))
+return (prime(2, n));
 }
