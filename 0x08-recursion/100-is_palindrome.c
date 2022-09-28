@@ -19,10 +19,9 @@ return (1);
 }
 else if (s[i] != s[len - 1])
 {
-{
 return (0);
-{
-else if (i < len - 1)
+}
+if else (i < len - 1)
 {
 return (pali(i + 1, len - 1, s));
 }
@@ -35,10 +34,9 @@ return (1);
  *
  * Return: length of the string.
  * 
- *
  */
 int length(char *s)
-{
+}
 if (*s != '\0')
 {
 return (1 + length(s + 1));
