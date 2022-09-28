@@ -42,18 +42,18 @@ if (n < 0)
 {
 return (-1);
 }
-if
+'if'
 (n == 0);
-{
+'{'
 return (0);
 }
-if
+'if'
 (n == 1);
-{
+'{'
 return (1);
 }
-else
+'else'
 {
 return (root_square(2, n));
 }
-i}
+'}'
