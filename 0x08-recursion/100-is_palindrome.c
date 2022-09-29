@@ -1,59 +1,44 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * pali - Function to compare string.
- *
- * @i: counter to begin string.
- * @len: length of the string.
- * @s: String to evaluate.
- *
- * Return: 1 for palindrome . 0 for not palindrome.
- *
-*/
-int pali(int i, int len, char *s)
-{
-if (i == len - 1)
-{
-return (1);
-}
-else if (s[i] != s[len - 1])
-{
-return (0);
-}
-if else (i < len - 1)
-{
-return (pali(i + 1, len - 1, s));
-}
-return (1);
-}
-/**
- * length - Function for calculate lenght of the string.
- *
- * @s: String to evaluate.
- *
- * Return: length of the string.
- * 
+ * _strlen_recursion - returns the length of a string.
+ * @s: string
+ * Return: the length of a string.
  */
-int length(char *s)
-}
-if (*s != '\0')
+int _strlen_recursion(char *s)
 {
-return (1 + length(s + 1));
+if (*s == '\0')
+return (0);
+else
+return (1 + _strlen_recursion(s + 1));
+}
+
+/**
+ * comparator - compares each character of the string.
+ * @s: string
+ * @n1: smallest iterator.
+ * @n2: biggest iterator.
+ * Return: .
+ */
+int comparator(char *s, int n1, int n2)
+{
+if (*(s + n1) == *(s + n2))
+{
+if (n1 == n2 || n1 == n2 + 1)
+return (1);
+return (0 + comparator(s, n1 + 1, n2 - 1));
 }
 return (0);
 }
+
 /**
- * is_palindrome - Function to evaluate is a palindrome.
- *
- * @s: String to evaluate is a palindrome word.
- *
- * Return: 1 for palindrome . 0 for not palindrome
- *
+ * is_palindrome - detects if a string is a palindrome.
+ * @s: string.
+ * Return: 1 if s is a palindrome, 0 if not.
  */
 int is_palindrome(char *s)
 {
-int len = length(s);
-
-return (pali(0,len,s));
+if (*s == '\0')
+return (1);
+return (comparator(s, 0, _strlen_recursion(s) - 1));
 }
