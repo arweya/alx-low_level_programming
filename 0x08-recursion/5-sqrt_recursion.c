@@ -1,59 +1,34 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * root_square - Returns the natural square root of a number
- * otherwise return 0.
- *
- * @n: result to find.
- * @num: number multiply by itself give the result.
- * Return: root square of the number
- *
+ * power_operation - returns the natural square root of a number.
+ * @n: input number.
+ * @c: iterator.
+ * Return: square root or -1.
  */
-int root_square(int num, int n)
+int power_operation(int n, int c)
 {
-/*Base case*/
-if (num * num == n)
+if (c % (n / c) == 0)
 {
-return (num);
-}
-else if (num * num > n)
-{
-return (-1);
-}
+if (c * (n / c) == n)
+return (c);
 else
-{
-num++;
-}
-return (root_square(num, n));
-}
-
-/**
- * _sqrt_recursion - Function that give natural square root of a number
- *
- * @n: number to find root square.
- * Return: natural square root of a number.
- *
- */
-int _sqrt_recursion(int n);
-'{'
-/* base case */
-if (n < 0)
-{
 return (-1);
 }
-'if'
-(n == 0);
-'{'
-return (0);
+return (0 + power_operation(n, c + 1));
 }
-'if'
-(n == 1);
-'{'
-return (1);
-}
-'else'
+/**
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: input number.
+ * Return: natural square root.
+ */
+int _sqrt_recursion(int n)
 {
-return (root_square(2, n));
+if (n < 0)
+return (-1);
+if (n == 0)
+return (0);
+if (n == 1)
+return (1);
+return (power_operation(n, 2));
 }
-'}'
