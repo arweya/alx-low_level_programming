@@ -1,19 +1,13 @@
 #include "main.h"
-
+#include <string.h>
 /**
- * _strlen - Count the numbers of characters in a string.
- * @p: Variable string.
- *
- *Return: Always void.
+ * _strlen - function declared
+ * @s: initialized integer
+ * Return: the length of a string
  */
-int _strlen(char *p)
+int _strlen(char *s)
 {
-int n = 0;
-
-while (*p != '\0')
-{
-n++;
-p++;
-}
-return (n);
+int len;
+len = strlen(s);
+return (len);
 }
