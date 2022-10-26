@@ -27,7 +27,8 @@ if (idx > 0)
 iter = *head;
 while (iter)
 {
-if (count == idx)   		
+if (count == idx)
+{
 new_node->next = iter->next;
 iter->next = new_node;
 return (new_node);
